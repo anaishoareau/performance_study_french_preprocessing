@@ -51,10 +51,6 @@ import pandas as pd
 import numpy as np
 ```
 
-
-<style>.container { width:100% !important; }</style>
-
-
 ## Chargement du dataset 
 
 
@@ -101,22 +97,6 @@ df.head()
 ```
 
 
-
-
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -394,7 +374,3 @@ L'outil FrenchPreprocessing (camemBERT) est beaucoup plus lent que TreeTagger, m
 
 **Attention :** Le StanfordPOSTagger résiste mieux lorsque la séquence donnée est plus longue qu'une phrase. FrenchPreprocessing (camemBERT) mets environ 0,1 seconde par phrase pour la lemmatisation contre 0,7 seconde pour celui avec le StanfordPOSTagger, mais camemBERT est un modèle à complexité temporelle quadratique sur la longueur de la séquence donnée. Il est donc préférable, pour lemmatiser du texte, de découper celui-ci par phrases avant de le lemmatiser. Ensuite, il faudrait paralléliser les calculs réalisés par FrenchPreprocessing, car cela permettrait de diviser le temps d'execution par le nombre de coeurs du processeur utilisé. 
 
-
-```python
-
-```
