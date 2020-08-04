@@ -1,0 +1,2 @@
+Temps de chargement de l'outil FrenchPreprocessing (StanfordPOSTagger) : 5.900420665740967
+Temps d'execution de l'opération pour FrenchPreprocessing (StanfordPOSTagger) : 1734.35395693779

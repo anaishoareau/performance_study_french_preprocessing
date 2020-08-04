@@ -1,0 +1,2 @@
+Temps de chargement de l'outil FrenchPreprocessing (camemBERT) : 10.079216241836548
+Temps d'execution de l'opération pour FrenchPreprocessing (camemBERT) : 328.23137068748474
